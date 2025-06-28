@@ -49,9 +49,8 @@ chore/setup/update-dependencies
 Use [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) messages:  
 Examples:  
 ```
-feat/client/add-clerk-auth  
-fix/server/fix-stripe-webhook  
-refactor/shared/update-prisma-schema  
+feat(client): add clerk auth    
+refactor(shared): update prisma schema  
 ```
 Each commit message should match the branch and describe the change clearly.  
 

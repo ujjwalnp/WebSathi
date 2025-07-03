@@ -3,12 +3,28 @@
   "compilerOptions": {
     "baseUrl": ".", // relative to apps/web
     "paths": {
-      "@components/*": ["components/*"],
-      "@modules/*": ["components/modules/*"],
-      "@ui/*": ["components/ui/*"],
-      "@hooks/*": ["hooks/*"],
-      "@lib/*": ["lib/*"]
-    }
+      "@components/*": [
+        "components/*"
+      ],
+      "@modules/*": [
+        "components/modules/*"
+      ],
+      "@ui/*": [
+        "components/ui/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ]
+    },
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",
@@ -16,6 +32,7 @@
     "**/*.ts",
     "**/*.tsx"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
-

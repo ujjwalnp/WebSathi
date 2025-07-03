@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { buttonVariants } from "../ui/button";
-import { cn } from "@/lib/utils";
+import { cn } from "@lib/utils";
 import { ArrowLeft } from "lucide-react";
 
 interface UnauthorizedProps {}

@@ -1,14 +1,14 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@ui/button";
+import { Input } from "@ui/input";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { cn } from "@/lib/utils";
+} from "@ui/popover";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@ui/tabs";
+import { cn } from "@lib/utils";
 import { Paintbrush } from "lucide-react";
 
 interface ColorPickerProps {

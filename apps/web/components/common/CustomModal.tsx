@@ -2,15 +2,15 @@
 
 import React from "react";
 
-import { useModal } from "@/hooks/use-modal";
+import { useModal } from "@hooks/use-modal";
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "../ui/dialog";
-import { ScrollArea } from "../ui/scroll-area";
+} from "@ui/dialog";
+import { ScrollArea } from "@ui/scroll-area";
 
 interface CustomModalProps {
   title: string;

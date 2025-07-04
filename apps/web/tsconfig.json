@@ -5,6 +5,8 @@
     "paths": {
       "@components/*": [
         "components/*"
+      ],"@agency/*": [
+        "app/agency/*"
       ],
       "@public/*": [
         "public/*"
